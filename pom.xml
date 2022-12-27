@@ -6,7 +6,7 @@
 
     <groupId>org.grapheco</groupId>
     <artifactId>lynx-rpc</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.1.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -21,7 +21,6 @@
             <artifactId>shapeless_2.12</artifactId>
             <version>2.3.9</version>
         </dependency>
-
         <dependency>
             <groupId>io.grpc</groupId>
             <artifactId>grpc-all</artifactId>
@@ -124,6 +123,11 @@
             <email>rh@cnic.cn</email>
         </developer>
     </developers>
+    <scm>
+        <url>https://github.com/lynxworld/lynx-rpc</url>
+        <connection>git@github.com:lynxworld/lynx-rpc.git</connection>
+        <developerConnection>https://github.com/lynxworld</developerConnection>
+    </scm>
     <distributionManagement>
         <snapshotRepository>
             <id>sonatype</id>
